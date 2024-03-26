@@ -4,7 +4,7 @@ import pymysql.cursors
 import pandas as pd
 
 #直接把数据库参数加到connect的语句里：
-connector = pymysql.connect(host='10.9.26.112',port = 3306,user = 'root',password = 'qilunji',  db="pingshan_plant_data", charset="utf8")
+connector = pymysql.connect(host='xx.x.xx.xxx',port = 3306,user = 'root',password = 'xxx',  db="xxx", charset="utf8")
 
 #创建游标
 cursor = connector.cursor()
