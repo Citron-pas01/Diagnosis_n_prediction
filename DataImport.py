@@ -18,6 +18,8 @@ result = cursor.fetchmany(1000)
 
 df_result = pd.DataFrame(list(result),columns = ["user_id", "file_id"])
 
+df_result.to_csv("pingshan1.csv")
+
 print(df_result.shape)
 print (df_result.head())
 
